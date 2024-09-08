@@ -10,7 +10,7 @@ def multiplicacao(x,y):
 def divisao(x,y):
     return x/y
 
-def calculadora();
+def calculadora():
     print("Selecione a operacao.")
     print("1.Adicao")
     print("2.Subtracao")
