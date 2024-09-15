@@ -8,8 +8,14 @@ data = {
     'salario': [5000, 4500, 5200, 6000, 4800, 4700]
 }
 
-df = pd.Dataframe(data)
+df = pd.DataFrame(data)
 
 # Filtragem dos funcionários de TI
 funcionarios_ti = df[df['departamento'] == 'TI']
 print(funcionarios_ti)
+
+# Média salarial
+media_salarial = funcionarios_ti['salario' ].mean()
+
+# Exibindo o resultado
+print(f"Média salarial dos funcionários de TI: {media_salarial}")
