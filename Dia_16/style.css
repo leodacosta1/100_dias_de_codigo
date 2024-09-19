@@ -13,17 +13,44 @@ body {
    
 }
 
-.img-wrapper {
+h1 {
+    font-size: 36px;
+    color: white;
+    text-shadow: 1px 1px 50px rgb(161, 161, 161);
     display: flex;
     justify-content: center;
+    margin: 20px;
+}
+
+.img-wrapper {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    overflow: hidden;
+    margin: 0 auto;
+    justify-content: flex-start;
+    align-items: center;
     height: 60vh;
+    white-space: nowrap;
+    width: 50vw;
+    transition: transform 0.5s ease-in-out;
 }
 
 .img-wrapper img {
-    opacity: 0.75;
+    display: flex;
+    position: absolute;
+    max-height: 100%;
+    width: auto;
+    height: auto;
     margin: 20px;
-    border-radius: 10px;
-} 
+    opacity: 0;
+    transition: transform 0.5s ease-in-out;
+}
+
+.img-wrapper img.active {
+    opacity: 1;
+    transition: transform 0.5s ease-in-out;
+}
 
 .button-wrapper {
     display: flex;
