@@ -17,6 +17,7 @@ def calculadora():
     print("3.Multiplicacao")
     print("4.Divisao")
 
+# seção abaixo foi adicionada no dia 5 do desafio
 while True:
     escolha = input("Escolha(1/2/3/4): ")
     if escolha in ('1','2','3','4'):
@@ -41,5 +42,3 @@ while True:
         break;
 
 calculadora()
-
-    
