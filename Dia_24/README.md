@@ -1,6 +1,8 @@
 https://git-scm.com/docs/git-pull
 
 
+Git pull
+
 Propósito: git pull busca alterações de um repositório remoto e as mescla no branch atual, garantindo que sua cópia local esteja atualizada.
 
 Sintaxe: O comando básico é git pull <remote> <branch>, onde <remote> é tipicamente origin, e <branch> é o branch que você deseja atualizar.
@@ -14,6 +16,8 @@ Tratamento de Conflitos: Se houver conflitos durante a mesclagem, o Git pedirá 
 Configuração: Você pode definir comportamentos padrão para git pull usando configurações como pull.rebase
 
 
+Git fetch e git merge
+
 Você deve usar git fetch em vez de git pull quando quiser revisar as alterações no repositório remoto antes de mesclá-las ao seu branch local. O fetch baixa as atualizações sem aplicá-las, permitindo que você inspecione os commits e decida como proceder. Isso é útil para evitar conflitos indesejados e garantir que você tenha controle sobre o que está sendo integrado ao seu trabalho.
 
 O git merge é a segunda etapa de um git pull. Quando você executa git pull, primeiro ele faz um git fetch para buscar as alterações do repositório remoto e, em seguida, realiza um git merge para integrar essas alterações ao seu branch atual. Assim, o merge combina as mudanças locais com as remotas.
@@ -23,7 +27,7 @@ Pull Request
 
 Um pull request (PR) é uma solicitação para integrar alterações de uma branch em outra, geralmente em um repositório remoto. Ele é usado principalmente em plataformas de controle de versão, como GitHub, GitLab e Bitbucket.
 
-Aqui estão alguns pontos importantes sobre pull requests:
+Pontos importantes sobre pull requests:
 
 Revisão de Código: Antes de mesclar as alterações, outros desenvolvedores podem revisar o código, discutir mudanças e sugerir melhorias.
 
