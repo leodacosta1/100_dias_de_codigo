@@ -1,6 +1,15 @@
 Git branch
 https://git-scm.com/docs/git-branch
 
+GIT MERGE:
+    Depois de criar a branch teste, pra voltar a trabalhar na main e juntar o que foi feito na teste, os passos são:
+    1. git checkout main
+    2. git merge <nome-da-branch-de-teste>
+    3. git push origin main
+    (caso não queira mais manter a branch de teste)
+    4. git branch -d <nome-da-branch-de-teste>
+    5. git push origin --delete <nome-da-branch-de-teste>
+
 
 Criação de Ramificação (Branch):
     Você pode criar uma nova branch executando git branch <nome-da-branch>, mas isso não muda automaticamente para a nova branch (use git checkout ou git switch para fazer isso).
