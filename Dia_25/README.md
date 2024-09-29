@@ -1,6 +1,9 @@
 Git branch
 https://git-scm.com/docs/git-branch
 
+O que é Git Merge? (ThePrimeagen/boot.dev):
+    https://www.youtube.com/watch?v=BAtW9n5FgLM
+    
 GIT MERGE:
     Depois de criar a branch teste, pra voltar a trabalhar na main e juntar o que foi feito na teste, os passos são:
     1. git checkout main
