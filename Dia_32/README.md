@@ -1,0 +1,1 @@
+atualizei projeto React na pasta do dia 31 com a tarefa do dia 32 pra não ter que criar outro projeto.
