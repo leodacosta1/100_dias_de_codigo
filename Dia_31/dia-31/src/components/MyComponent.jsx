@@ -1,8 +1,8 @@
 function MyComponent() {
     return (
         <div>
-            <h1>Hello World</h1>
-            <p>Este é meu primeiro componente</p>
+            <h1>{props.title}</h1>
+            <p>{props.description}</p>
         </div>
     )
 }

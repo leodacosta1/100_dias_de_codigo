@@ -5,7 +5,10 @@ import MyComponent from './components/MyComponent'
 function App() {
   return (
     <div>
-      <MyComponent/>
+      <MyComponent
+        title="Título via propriedades(props)"
+        desciption="Descrição via pripriedades(props)"
+      />
     </div>
   )
 }

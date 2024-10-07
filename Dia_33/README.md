@@ -1,0 +1,1 @@
+feita alteração nos arquivos App.jsx e MyComponent.jsx do projeto com React na pasta do Dia 31
