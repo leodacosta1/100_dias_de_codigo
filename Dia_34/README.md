@@ -1,0 +1,1 @@
+feita alteração no arquivo App.jsx e criado arquivo ConditionalComponents.jsx no projeto com React na pasta do Dia 31
