@@ -3,11 +3,13 @@ import './App.css'
 import MyComponent from './components/MyComponent'
 import ConditionalComponent from './components/ConditionalComponents';
 import Counter from './components/Counter';
+import GithubUser from './components/GithubUser';
 
 function App() {
   return (
     <div>
-      <Counter/>
+      <GithubUser
+        userName="leodacosta1"/>
     </div>   
   )
 }
