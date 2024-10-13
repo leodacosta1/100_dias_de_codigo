@@ -1,0 +1,1 @@
+projeto atualizado com botao delete no quadro de tarefas com react na pasta do dia 38
