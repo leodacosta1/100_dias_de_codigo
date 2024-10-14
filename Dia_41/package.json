@@ -1,0 +1,12 @@
+{
+  "name": "dia_41",
+  "version": "1.0.0",
+  "description": "códigos úteis para instalação e inicialização do node.js:\r node -v\r npm -v\r mkdir nome-do-projeto\r code .\r npm init -y (instalar package.json)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
