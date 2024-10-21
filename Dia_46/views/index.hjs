@@ -17,6 +17,14 @@
                 </li>
             {{/profiles}}
         </ol>
+
+        <form action="/join" method="post">
+            <input type="text" name="name"placeholder="Insira seu nome:"> <br>
+            <input type="text" name="city"placeholder="Insira sua cidade:"> <br>
+            <input type="text" name="profession"placeholder="Insira sua profissão:"> <br>
+            <input type="submit" value="Cadastrar perfil">
+        </form>
+
     </div>
     
 </body>
