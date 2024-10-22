@@ -10,7 +10,7 @@ const profiles = [
 router.get('/', (req,res,next) => {
     const data = {
         name: "Home",
-        date: "31/02/2420",
+        date: req.timeStamp,
         profiles: profiles
     }
 
