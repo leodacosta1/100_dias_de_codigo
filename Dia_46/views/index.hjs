@@ -7,7 +7,12 @@
 <body>
     <div class="container" style="--bs-danger">
         <h1>Essa é a minha {{name}} page</h1>
-        <p>Hoje é dia: {{date}}</p>
+        <p>
+            Hoje é dia: {{date}}
+            {{#user}}
+                "Bem vindo {{user.username}}"
+            {{/user}}
+        </p>
         <ol>
             {{#profiles}}
                 <li>{{name}}, {{city}}
